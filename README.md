@@ -9,7 +9,7 @@ Story Slammer is an AI-powered tool designed to streamline the process of analyz
 - Generate comprehensive summaries using AI
 - Interactive Q&A session with AI about the analyzed data
 
-## Running
+## Usage
 
 1. Set up your environment variables:
    Create a `.env` file in the project root and add the following:
