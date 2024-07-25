@@ -9,6 +9,10 @@ Story Slammer is WIP AI-powered tool designed to streamline the process of analy
 - Generate comprehensive summaries using AI
 - Interactive Q&A session with AI about the analyzed data
 
+## Setup
+
+1. You can choose to create a `context.txt` file under the `prompts` directory if you so desire. This file is in the git ignore since its purpose is to hold relatively sensitive information to help story slammer give you better responses. For example, this file can be used to include the names of inviduals at the company so that Story Slammer will know who is working on a card and what team they belong to. Any information that Story Slammer could use to provide a better response can be put into this file.
+
 ## Usage
 
 1. Set up your environment variables:
