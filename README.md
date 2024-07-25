@@ -1,5 +1,5 @@
 # StorySlammer
-Story Slammer is an AI-powered tool designed to streamline the process of analyzing and summarizing Jira issues, notes, images, and recorded meetings. It leverages OpenAI's Whisper for transcription and Anthropic's Claude for conversation and analysis.
+Story Slammer is WIP AI-powered tool designed to streamline the process of analyzing and summarizing Jira issues, notes, images, and recorded meetings. It leverages OpenAI's Whisper for transcription and Anthropic's Claude for conversation and analysis.
 
 ## Features
 - Fetch and analyze Jira issues
