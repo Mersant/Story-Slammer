@@ -1,0 +1,55 @@
+# Comprehensive Data Analysis Task
+
+You will be presented with a set of data to analyze, which may include Jira issues, notes, images, and a meeting transcript. Your task is to provide a thorough and insightful summary of this data, highlighting key points and drawing meaningful conclusions.
+
+## Data Components
+
+1. **Jira Issues** (wrapped in `<jira>` tags):
+   - Primary issue (`<primaryIssue>` tags)
+   - Parent issue, if applicable (`<parentIssue>` tags)
+   - Related issues (siblings of the primary issue, `<relatedIssue>` tags)
+   - Note: Some sections may be crossed out (`<crossedout>` tags) or highlighted (`<highlighted>` tags)
+
+2. **Notes** (`<notes>` tags): Text content related to the primary Jira issue
+
+3. **Images**: Visual context accompanying the notes
+
+4. **Transcript** (`<transcript>` tags): Record of a meeting related to the primary Jira issue
+
+5. **Context** (`<context>` tags): Information about the company you work for.
+
+*Important: Each component is optional. If a section is empty, exclude it from your analysis.*
+
+## Analysis Requirements
+
+Provide a comprehensive summary that addresses the following points:
+
+1. Primary Issue Analysis:
+   - Describe the main objective and specific role of the primary issue
+   - Explain its relationship to the parent issue (if applicable)
+   - Analyze how it fits into the broader context of sibling issues
+
+2. Cross-Issue Examination:
+   - Identify common themes, dependencies, or potential conflicts among related issues
+   - Suggest insights or recommendations based on the overall issue landscape
+
+3. Supplementary Data Integration:
+   - Summarize the contents of any provided images
+   - Condense the key points from the notes
+   - Outline the main topics and outcomes from the transcript
+   - Synthesize information from all sources to provide a holistic view
+
+4. Special Considerations:
+   - Emphasize and interpret any highlighted sections in the Jira issues
+   - Explain the significance of any crossed-out sections and reason for their removal
+   - Highlight discrepancies or conflicts between the transcript and the primary Jira issue
+
+## Formatting Guidelines
+
+- Structure your summary using clear, well-organized paragraphs in markdown format
+- Utilize bullet points or numbered lists for presenting itemized information
+- Use headings and subheadings to enhance readability and organization
+
+## Final Output
+
+Your analysis should result in a coherent, insightful, and well-structured report that provides a comprehensive understanding of the project status, key challenges, and potential actions based on all available data.
